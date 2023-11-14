@@ -1,0 +1,21 @@
+.not-found-container {
+    background-color: #f0f0f0; /* Set your desired background color */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333; /* Set your desired text color */
+}
+
+p {
+    font-size: 1.5em;
+    color: #555; /* Set your desired text color */
+    text-align: center;
+}

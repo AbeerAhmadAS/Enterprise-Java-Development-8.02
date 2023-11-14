@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+  color:darkslategray;
+  font-family: 'Courier New', Courier, monospace;
+  }
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 70px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  mat-form-field {
+    width: 100%; /* Adjust the width of the form field */
+    margin-bottom: 15px; /* Add margin between form fields */
+  }
+  
+  /* Style the input within the form field */
+  mat-form-field input {
+    padding: 10px; /* Increase input padding */
+    font-size: 16px; /* Adjust font size for the input */
+    border: 1px solid #ccc; /* Example: Add a border to the input */
+    border-radius: 5px; /* Example: Add rounded corners */
+  }
+  
+  /* Style the error message */
+  mat-error {
+    color: rgb(136, 119, 119); /* Change the color of the error message */
+    font-size: 14px; /* Adjust font size for the error message */
+    margin-top: 5px; /* Add margin at the top of the error message */
+  }
